@@ -10,13 +10,7 @@ public class Menu {
 
 	public static void main(String[] args) {
 
-		// pra testar a Classe Conta
-		Conta c1 = new Conta(1, 001, 1, "Marinette", 10000.0f);
-		c1.visualizar();
-		c1.sacar(12000.0f);
-		c1.visualizar();
-		c1.depositar(5000.0f);
-		c1.visualizar();
+		
 
 		// Teste da Conta Corrente
 		ContaCorrente cc1 = new ContaCorrente(3, 002, 1, "Ruanatan", 0.0f, 1000.0f);
